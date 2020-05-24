@@ -66,7 +66,7 @@
     let membercount = bot.users.size - 2
     log(`Logged in as ${bot.user.tag}`);
     log(`${membercount} users, ${bot.channels.size} channels and ${bot.guilds.size} guilds. Version ${version}.`);
-    bot.user.setActivity(`Liridon is a GOD | help `, { type: "STREAMING", url: 'https://www.twitch.tv/PiggyPlex' })
+    bot.user.setActivity(`o.O`, { type: "STREAMING", url: 'https://www.twitch.tv/PiggyPlex' })
     let gInterval = setInterval(async () => {
       let all = await db.startsWith(`giveaways_`);
       all.map(async (g) => {
